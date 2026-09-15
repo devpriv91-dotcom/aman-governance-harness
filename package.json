@@ -1,0 +1,26 @@
+{
+  "name": "@aman/governance-harness",
+  "version": "0.1.0-alpha.1",
+  "description": "Experimental security-focused reference harness for capability growth without automatic authority growth.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "demo": "node --experimental-strip-types examples/authority-demo.ts",
+    "eval": "node --experimental-strip-types examples/provider-evaluation.ts",
+    "benchmark": "node --experimental-strip-types examples/governance-benchmark.ts",
+    "eval:openai": "node --experimental-strip-types examples/openai-evaluation.ts",
+    "check": "npm test && npm run demo && npm run eval && npm run benchmark"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "keywords": [
+    "ai-governance",
+    "agent-security",
+    "authorization",
+    "human-in-the-loop",
+    "audit-evidence"
+  ]
+}
