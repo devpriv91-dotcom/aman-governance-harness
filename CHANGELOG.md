@@ -2,9 +2,9 @@
 
 All notable changes to this project will be documented here. The project follows semantic versioning for public alpha releases.
 
-## 0.1.0-alpha.1
+## 0.1.0-alpha.1 — 2026-09-16
 
-- Publish the first fresh-history public alpha of AMAN Governance Harness.
+- Published the first fresh-history, source-first public alpha of AMAN Governance Harness as signed tag [`v0.1.0-alpha.1`](https://github.com/devpriv91-dotcom/aman-governance-harness/releases/tag/v0.1.0-alpha.1), resolving to [`778b8f4104b68e2648cf98ac4b3427aa85e3a9ef`](https://github.com/devpriv91-dotcom/aman-governance-harness/commit/778b8f4104b68e2648cf98ac4b3427aa85e3a9ef).
 - Add public extraction and claim-review gates.
 - Require an explicit valid expiry interval before a human approval can be signed or verified.
 - Add regression coverage for approval validity intervals.
