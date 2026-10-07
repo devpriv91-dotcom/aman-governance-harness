@@ -181,6 +181,6 @@ Synthetic passing tests establish only that the implemented fixtures satisfy the
 
 ## Status
 
-`0.1.0-alpha.1` is the first fresh-history public alpha candidate. The package remains `private: true`; npm publication would require a separate reviewed packaging change.
+`0.1.0-alpha.1` is the first fresh-history, source-first public alpha. Its signed annotated tag [`v0.1.0-alpha.1`](https://github.com/devpriv91-dotcom/aman-governance-harness/releases/tag/v0.1.0-alpha.1) resolves to the reviewed commit [`778b8f4104b68e2648cf98ac4b3427aa85e3a9ef`](https://github.com/devpriv91-dotcom/aman-governance-harness/commit/778b8f4104b68e2648cf98ac4b3427aa85e3a9ef). The GitHub prerelease retains the deterministic 28/28 test result and 50/50 benchmark evidence. The package remains `private: true`; npm publication would require a separate reviewed packaging change.
 
 The current public candidate includes the provider-neutral governance matrix, the 50-case deterministic benchmark, machine-readable live-evaluation evidence support, a bounded optional OpenAI Responses adapter, and persistent Codex maintainer instructions. A live provider result is not claimed until an explicit run has actually been performed and retained against an exact reviewed release.
